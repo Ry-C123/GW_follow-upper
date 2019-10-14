@@ -159,9 +159,9 @@ def plot_coverage(images, skymap1, plot = True):
 
     print(Area)
     print(prob)
-    # Finish plot
-    # Return percentage, sky area, any other info 
-    #return()
+
+    # TODO #
+    #return(Area, prob, sky_cover.png)
 
 #plot_coverage('Directory', 'S190814bv.fits')
 #plot_coverage(['1.fits','2.fits','3.fits','4.fits','5.fits'], 'S190814bv.fits')
