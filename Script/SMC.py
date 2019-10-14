@@ -10,6 +10,8 @@ import matplotlib.pyplot as plt
 """
 FUTURE UPDATES:
  - Work with images that have more than four corners
+ - Make pip-able
+ - Better outputs
  - Make features robust for automation
  - Have a way of measuring error on the estimates
  - Ideas for other pieces of info
@@ -161,8 +163,8 @@ def plot_coverage(images, skymap1, plot = True):
     # Return percentage, sky area, any other info 
     #return()
 
-plot_coverage('STUFF', 'S190814bv.fits')
-
+#plot_coverage('Directory', 'S190814bv.fits')
+#plot_coverage(['1.fits','2.fits','3.fits','4.fits','5.fits'], 'S190814bv.fits')
 
 
 
